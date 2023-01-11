@@ -1,5 +1,31 @@
+body{
+    font-family: roboto;
+    background-color: #1F2937;
+    color:white;
+}
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ul{
+    list-style-type: none;
+    color:gray;
+    padding: 0px;
+    margin: 0px;
+}
+il{
+    margin-left: 16px;
+}
+
+a{
+    color:antiquewhite;
+    text-decoration: none;
+}
+.header-text{
+    font-family: Hero;
+    font-size: 24px;
+    font-weight: 400;
 }
