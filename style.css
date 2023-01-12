@@ -23,10 +23,12 @@ body{
 .body1{
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
     flex-grow: 1;
+}
+.body1{
+    gap: 10px;
 }
 .header{
     display: flex;
@@ -40,6 +42,7 @@ body{
     flex-grow: 0;
     align-self: center;
 }
+
 ul{
     list-style-type: none;
     color:gray;
@@ -63,6 +66,7 @@ a{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0px;
 }
 
 .left-body1{
@@ -74,4 +78,19 @@ a{
     align-self: center;
     justify-self: center;
     flex:1;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+img{
+    flex:auto;
+}
+.button1{
+    align-self: flex-start;
+    background-color: #3882f6;
+    color: aliceblue;
+    font-size: larger;
+    border:none;
+    border-radius: 8px;
 }
