@@ -30,6 +30,16 @@ body{
 .body1{
     gap: 10px;
 }
+.body2{
+    background-color:#F9FAF8;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
 .header{
     display: flex;
     align-items: center;
@@ -93,4 +103,16 @@ img{
     font-size: larger;
     border:none;
     border-radius: 8px;
+}
+.body2-row2{
+    display: flex;
+    font-size: 12px;
+    font-weight: 100;
+}
+.collumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
 }
